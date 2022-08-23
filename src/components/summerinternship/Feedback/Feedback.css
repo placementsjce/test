@@ -1,0 +1,28 @@
+.header_company{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #35589A;
+    color: white;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.companyaddform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.oncamp_rest{
+    width: 78%;
+    margin: 0 2rem;
+}
+@media only screen and (max-width: 700px) {
+    .oncamp_side{
+        display: none;
+    }
+    .oncamp_rest{
+        width: 100%;
+        margin: 0;
+    }
+}

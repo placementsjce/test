@@ -1,0 +1,20 @@
+.detailscomapny{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    justify-content: space-between;
+    grid-row-gap: 0px;
+}
+@media only screen and (max-width: 700px) {
+    .oncamp_side{
+        display: none;
+    }
+    .oncamp_rest{
+        width: 100%;
+        margin: 0;
+    }
+    .detailscomapny{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}

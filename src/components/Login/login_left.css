@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.fontl {
+    font-family: 'Roboto', sans-serif;    
+}
+
+.jss1{
+    /* font-size: 2.2rem; */
+    color:honeydew;
+}
+.jss2{
+    /* font-size: 1.8rem; */
+    color:honeydew;
+
+}
+.sri{
+    /* font-size: 1.8rem; */
+    color:honeydew;
+
+}
+.left_text{
+    color:honeydew;
+    display: flex;
+    height:100vh;
+    padding:0 0.4vw;
+    font-size: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.restdetails{
+    /* position: absolute;
+    bottom: 0;
+    left:5.5% ; */
+}

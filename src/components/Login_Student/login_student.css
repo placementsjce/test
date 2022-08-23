@@ -1,0 +1,7 @@
+.loginstudent__whole{
+    display:flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-evenly;
+    max-width: 100%;
+}

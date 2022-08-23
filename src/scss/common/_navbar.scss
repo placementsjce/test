@@ -1,0 +1,68 @@
+.navbar-sjce {
+	display: flex;
+	justify-content: space-between;
+	.navbar-brand {
+		cursor: pointer;
+		img {
+			width: 60px;
+			height: 60px;
+		}
+		@media (max-width: 992px) {
+			margin-right: 0;
+		}
+	}
+
+	.title {
+		font-weight: 500;
+		color: #424242;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		// @media (max-width: 992px) {
+		// 	display: none;
+		// }
+		.heading1 {
+			font-size: 16px;
+			@media (max-width: 992px) {
+				font-size: 13px;
+			}
+		}
+		.sub-heading {
+			font-size: 14px;
+			@media (max-width: 992px) {
+				font-size: 11px;
+			}
+		}
+	}
+
+	#whySJCE,
+	#team {
+		&.active {
+			color: #17404e;
+		}
+		padding: 0;
+	}
+	.dropdown-menu {
+		padding: 1rem 0 !important;
+		border: none;
+		background-color: #f8f9fa;
+		.dropdown-item {
+			font-weight: 500;
+			text-decoration: none;
+			// font-weight: 500;
+			text-align: left;
+			// padding: 0.4rem 1rem;
+			text-align: left;
+			color: rgba(0, 0, 0, 0.5);
+			// font-weight: 500;
+			font-size: 1rem;
+
+			&:active,
+			&.active {
+				background-color: #f8f9fa !important;
+			}
+		}
+	}
+}

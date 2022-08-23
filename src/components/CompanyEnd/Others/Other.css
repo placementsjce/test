@@ -1,0 +1,30 @@
+.header_company{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #35589A;
+    color: white;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.companyaddform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.deatailscompanybuttons{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.deatailscompanybuttons div{
+    display: flex;
+    align-items: center;
+    margin: 1vh 0;
+    justify-content: space-between;
+    box-border:  1px;
+}
+.deatailscompanybuttons div Button{
+    margin: 0 3vw;
+}   
